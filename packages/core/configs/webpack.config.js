@@ -1,4 +1,4 @@
-const webpackMerge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const baseWebpackConfig = require('./webpack.common');
 const MinCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
@@ -14,7 +14,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 /**
  * @type {Configuration}
  */
-let webpackConfig = webpackMerge(baseWebpackConfig, {
+let webpackConfig = merge(baseWebpackConfig, {
     mode: 'production',
     stats: { children: false, warnings: false },
     plugins: [

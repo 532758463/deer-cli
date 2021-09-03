@@ -22,7 +22,7 @@ function downloadTemplate(projectName = "react-ts", template = "react", noverify
 
   downloadGitRepo(
     // 模板项目地址
-    `direct:git@github.com:532758463/${template}-ts.git`,
+    `direct:git@github.com:532758463/${projectName}-template.git`,
     // dir
     projectName,
     {

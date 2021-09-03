@@ -1,6 +1,6 @@
 {
   "name": "@tonice/core",
-  "version": "0.0.279",
+  "version": "0.0.281",
   "description": "deer-cli",
   "author": "xiaoyang <532758463@qq.com>",
   "license": "MIT",
@@ -60,7 +60,6 @@
     "@typescript-eslint/parser": "^4.11.1",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
     "add-asset-html-webpack-plugin": "^3.1.3",
-    "babel-plugin-dev-expression":"^0.2.2",
     "@babel/plugin-transform-react-constant-elements":"^7.14.5",
     "@babel/plugin-transform-react-inline-elements":"^7.14.5",
     "axios": "^0.21.1",
